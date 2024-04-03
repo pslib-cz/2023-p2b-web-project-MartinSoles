@@ -1,0 +1,28 @@
+.main{
+    display: grid;
+    grid-template-rows: auto;
+    gap: 1em;
+    justify-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card{
+    background-color: rgba(166, 207, 213, 1);
+    max-width: 18em;
+    border-radius: 7px;
+    padding: .7em;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1em;
+    box-shadow: 3px 3px rgb(36, 35, 35);
+}
+
+@media only screen and (min-width: 1025px){
+    body{
+        gap: 5em;
+    }
+}
