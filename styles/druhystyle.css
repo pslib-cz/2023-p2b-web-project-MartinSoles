@@ -16,6 +16,20 @@
     grid-template-columns: auto;
     gap: 1em;
 }
+.card{
+    background-color: rgba(166, 207, 213, 1);
+    max-width: 18em;
+    border-radius: 7px;
+    padding: .7em;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1em;
+    box-shadow: 3px 3px rgb(36, 35, 35);
+    grid-template-rows: 1fr min-content 1fr ;
+    justify-items: center;
+    
+}
 @media only screen and (min-width: 1025px){
     body{
         gap: 5em;

@@ -1,13 +1,14 @@
 .main{
     display: grid;
     grid-template-rows: auto;
-    gap: 1em;
+    gap: 3em;
     justify-items: center;
     padding-left: 1em;
     padding-right: 1em;
     max-width: 80vw;
     margin-left: auto;
     margin-right: auto;
+    justify-items: center;
 }
 .card{
     background-color: rgba(166, 207, 213, 1);
@@ -19,8 +20,31 @@
     grid-template-columns: auto;
     gap: 1em;
     box-shadow: 3px 3px rgb(36, 35, 35);
+    grid-template-rows: min-content 1fr;
+    justify-items: center;
+    
 }
 
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 @media only screen and (min-width: 1025px){
     body{
         gap: 5em;

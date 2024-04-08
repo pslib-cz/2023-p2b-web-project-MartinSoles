@@ -9,11 +9,12 @@
     box-shadow: 3px 3px rgb(36, 35, 35);
 }
 .main{
-    max-width: 80vw;
+    max-width: 800px;
     display: flex;
     flex-direction: column;
     gap: 2em;
     margin: auto;
+    padding: 1em;
 }
 .input-item{
     display: flex;
@@ -47,4 +48,7 @@ body{
     
     align-self: flex-end;
     margin-right: 10%;
+}
+.navigation-item{
+    display: block;
 }
