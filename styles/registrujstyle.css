@@ -38,6 +38,7 @@
     padding: .7em;
     color: white;
     box-shadow: 3px 3px rgb(36, 35, 35);
+    font-size: 1.2em;
 }
 body{
     gap: 3em;
@@ -45,10 +46,13 @@ body{
 #input-submit{
     border-radius: 10px;
     background-color: rgba(38, 64, 139, 1);
-    
+    font-size: 1.2em;
     align-self: flex-end;
     margin-right: 10%;
 }
 .navigation-item{
     display: block;
+}
+.input-item-label{
+    font-size: 1.2em;
 }
