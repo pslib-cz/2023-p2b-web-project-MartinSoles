@@ -11,7 +11,7 @@
     justify-items: center;
 }
 .card{
-    background-color: rgba(166, 207, 213, 1);
+    background-color:var(--lightGreen);
     max-width: 18em;
     border-radius: 7px;
     padding: .7em;
@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: auto;
     gap: 1em;
-    box-shadow: 3px 3px rgb(36, 35, 35);
+    box-shadow: var(--shadow);
     grid-template-rows: min-content 1fr;
     justify-items: center;
     

@@ -1,10 +1,11 @@
 
 .gallery-photo{
-    max-width: 200px;
+    max-width: 500px;
 }
 main{
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
     justify-content: center;
+    
 }

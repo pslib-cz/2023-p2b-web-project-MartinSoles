@@ -1,6 +1,7 @@
 :root{
     --purple: rgba(38, 10, 89, 1);
     --shadow:rgb(36, 35, 35);
+    --lightGreen:  rgba(166, 207, 213, 1);
 }
 @font-face {
     font-family: titleFont;
@@ -31,6 +32,7 @@ header{
     font-size: 2em;
     border-bottom: 1px solid black;
     font-family: titleFont;
+    text-align: center;
 }
 .card-text{
     font-size: 1.2em;
@@ -96,8 +98,8 @@ footer{
     gap: .3em;
     padding-top: 1em;
     padding-bottom: 2em;
-    height: 100%;
     width: 100%;
+    align-self: baseline;
 }
 figure{
     margin: 0;
