@@ -3,10 +3,17 @@
     --shadow:rgb(36, 35, 35);
     --lightGreen:  rgba(166, 207, 213, 1);
 }
+html{
+    font-family: generalFont;
+}
 @font-face {
     font-family: titleFont;
-    src: url(../fonts/IrishGrover-Regular.ttf);
+    src: url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
   }
+@font-face {
+    font-family: generalFont;
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
 body{
     margin: 0;
     background-color: rgba(15, 8, 75, 0.87);
@@ -33,6 +40,7 @@ header{
     border-bottom: 1px solid black;
     font-family: titleFont;
     text-align: center;
+    
 }
 .card-text{
     font-size: 1.2em;
